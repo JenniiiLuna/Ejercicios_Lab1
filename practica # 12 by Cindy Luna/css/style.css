@@ -1,0 +1,58 @@
+/* Estilo general del cuerpo de la pagina */
+
+body{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Estilo de color para titulos, parrafos y etiquetas */
+
+h1,
+p,
+label{
+    color: white;
+}
+
+/*Estilos para el control deslizante de volumen*/
+input[type="range"]{
+    width: 100px;
+}
+
+/*Estilos para la tarjetas del reproductor de musica*/
+.card{
+    width: 450px;
+    height: 750px;
+}
+
+/*Estilos para la imagen de la caratula del album*/
+.img{
+    width: 400px;
+    height: 350px;
+}
+
+/*Estilos para el contenedor principal de la pagina*/
+.container{
+    display: grid;
+    place-items: center;
+    height: 500px;
+}
+
+/*Estilos para el contenedor del conntrol de volumen*/
+#volume-container{
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*Estilos para la etiqueta de control de volumen */
+#volume-container label{
+    font-weight: bold;
+    color: white;
+}
+
+#volume{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
