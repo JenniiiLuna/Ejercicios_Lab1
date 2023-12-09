@@ -1,0 +1,47 @@
+:root{
+    --primary-color: rgb(114, 184, 170);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 30px;
+    background-color: cadetblue;
+    
+
+}
+
+
+.fa-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    color:rgba(220, 20, 60, 0.536);
+    font-size: 25px;
+}
+
+.dark-mode .fa-button{
+    background-color: rgb(19, 11, 28);
+    color: #ffffff;
+    border-color: #ffffff;
+    font-size: 25px;
+}
+
+
+.light-mode .fa-button{
+    background-color: var(--primary-color);
+    color:#fff;
+    border-color: var(--primary-color);
+    font-size: 25px;
+
+}
+
+
+.reset-mode .fa-button{
+    background: linear-gradient(to right, var(--primary-color), #fff);
+    border-color: var(--primary-color);
+}
+
